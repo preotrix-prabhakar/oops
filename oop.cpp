@@ -47,9 +47,9 @@ int main(){
 Teacher t1;
     t1.name="sdfs";
     t1.setSalary(50000);
-    // cout<<t1.name<<endl;
-    // cout<<t1.dept<<endl;
-    // cout<<t1.getSalary();
+    cout<<t1.name<<endl;
+    cout<<t1.dept<<endl;
+    cout<<t1.getSalary();
     Teacher t2(t1);
     t2.getInfo();
 
